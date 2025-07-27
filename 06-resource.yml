@@ -12,9 +12,6 @@ spec:
       requests: #Upper/Soft limit
         memory: "68Mi"
         cpu: "100m"
-      limit: #Lower/Hard limit
+      limits: #Lower/Hard limit
         memory: "128Mi"
         cpu: "150m"
-
-
-      
