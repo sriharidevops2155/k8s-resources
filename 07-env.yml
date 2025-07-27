@@ -1,0 +1,16 @@
+apiVersion: v1 
+kind: Pod
+metadata:
+  name: envvar-demo
+  labels:
+    name: demonistrate-envars
+spec:
+  containers:
+  - name: nginx
+    image: nginx 
+    env:
+    - name: TOPIC
+      value: "KUBERNETES"
+    - name: TRAINER
+      value: "SELF LEARNING"
+  
