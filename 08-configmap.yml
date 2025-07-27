@@ -1,0 +1,14 @@
+apiVersion: v1 
+kind: ConfigMap
+metadata:
+  name: pod-config
+  labels:
+    purpose: Config
+    env: dev
+    project: roboshop
+    tier: backend
+data:
+  COURSE: "DEVOPS WITH AWS FULL COURSE IN INDEPTH"
+  DURATION: "Flexible times in weekdays and Weekends"
+  TIME: "Planning for 2 Hrs in a day"
+  TRAINER: "Self-Learning"
