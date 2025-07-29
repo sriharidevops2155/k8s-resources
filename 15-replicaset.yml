@@ -18,9 +18,10 @@ spec:
   template:
   # This pod defination
     metadata:
-      purpose: rs-demo 
-      project: roboshop 
-      app: nginx
+      labels:
+        purpose: rs-demo 
+        project: roboshop 
+        app: nginx
     spec:
       containers:
       - name: nginx
