@@ -30,12 +30,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx
+  name: nginx-svc
   labels:
     purpose: service-demo
 spec:
   selector:
-    purpose: service-demo
+    purpose: Deployment-demo
     project: roboshop
     environment: dev
   ports:
