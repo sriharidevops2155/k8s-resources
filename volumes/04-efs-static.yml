@@ -3,7 +3,8 @@ kind: PersistentVolume
 metadata:
   name: efs-static
 spec:
-  capacity: 5Gi 
+  capacity: 
+  storage: 5Gi 
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce
